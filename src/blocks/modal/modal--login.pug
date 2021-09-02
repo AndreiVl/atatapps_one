@@ -1,0 +1,13 @@
+div.modal.modal-form.modal--login(id="modal_login")
+	div.modal-form__in
+		p.modal-form__title ВХОД
+
+		include ../form/form--login.pug
+
+		div.modal-form__login
+			span Ещё нет аккаунта?
+			a.modal-link(href="#modal-registration") Регистрация
+
+	//- div.modal-form__in.modal-form__in--border-top
+	//- 	div.modal-form__registration
+	//- 		include ../form/form--registration.pug

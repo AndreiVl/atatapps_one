@@ -1,0 +1,91 @@
+.banner {
+  /* 2 Block model */
+  width: 100%;
+  overflow: hidden;
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+  /* 4 Visual */
+  background-image: url(../images/bg-banner.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  @media(min-width: 992px) {
+    /* 2 Block model */
+    padding-top: 120px;
+    padding-bottom: 115px;
+  }
+  @media(min-width: 1200px) {
+    /* 2 Block model */
+    padding-top: 121px;
+    padding-bottom: 340px;
+  }
+}
+.banner__img {
+  /* 1 Positioning */
+  position: relative;
+
+  /* 2 Block model */
+  display: block;
+  width: 100%;
+  max-width: 488px;
+  margin: 0 auto;
+
+  @media(min-width: 992px) {
+    /* 2 Block model */
+    margin-left: 160px;
+  }
+  @media(min-width: 1200px) {
+    /* 2 Block model */
+    margin-left: 287px;
+  }
+}
+.banner .lead {
+  /* 1 Positioning */
+  position: relative;
+  top: 10px;
+
+  /* 2 Block model */
+  width: 100%;
+  max-width: 810px;
+  margin: 0 auto;
+
+  /* 3 Typography */
+  text-align: center;
+
+  @media(min-width: 768px) {
+    /* 1 Positioning */
+    top: 18px;
+  }
+  @media(min-width: 992px) {
+    /* 1 Positioning */
+    top: 20px;
+
+    /* 2 Block model */
+    margin-left: 100px;
+  }
+  @media(min-width: 1200px) {
+    /* 1 Positioning */
+    top: 31px;
+
+    /* 2 Block model */
+    margin-left: 108px;
+  }
+}
+/* 1 Positioning */
+
+/* 2 Block model */
+
+/* 3 Typography */
+
+/* 4 Visual */
+
+/* 5 Animation*/
+
+/* 6 Misc */

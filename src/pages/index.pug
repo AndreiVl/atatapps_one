@@ -1,0 +1,31 @@
+doctype html
+html(lang="ru")
+	include include/head.pug
+	+head('Statapps')
+
+	body
+		include ../blocks/mixins.pug
+
+		include ../blocks/header/header.pug
+
+		include ../blocks/banner/banner.pug
+
+		include ../blocks/system/system.pug
+
+		include ../blocks/results/results.pug
+
+		include ../blocks/contacts/contacts.pug
+
+		include ../blocks/footer/footer.pug
+
+		//- include ../blocks/cookies/cookies.pug
+
+		include ../blocks/modal/modal--login.pug
+
+		include ../blocks/modal/modal--registration.pug
+
+		include ../blocks/modal/modal--brief.pug
+
+		include ../blocks/to-top/to-top.pug
+
+		include include/script.pug

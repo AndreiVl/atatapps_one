@@ -1,0 +1,55 @@
+.title {
+  /* 2 Block model */
+  margin-bottom: 35px;
+
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    margin-bottom: 45px;
+  }
+  @media(min-width: 992px) {
+    /* 2 Block model */
+    margin-bottom: 44px;
+  }
+}
+.title .h2 {
+  /* 1 Positioning */
+  position: relative;
+}
+.title .h2::before {
+  /* 1 Positioning */
+  position: absolute;
+  right: 50%;
+  bottom: -6px;
+  content: '';
+
+  /* 2 Block model */
+  display: block;
+  width: 80px;
+  height: 1px;
+
+  /* 4 Visual */
+  background-color: $color-blue;
+  transform: translateX(50%);
+}
+.title--w-144 .h2::before {
+  /* 2 Block model */
+  width: 114px;
+}
+.title--mb72 {
+
+  @media(min-width: 992px) {
+    /* 2 Block model */
+    margin-bottom: 72px;
+  }
+}
+/* 1 Positioning */
+
+/* 2 Block model */
+
+/* 3 Typography */
+
+/* 4 Visual */
+
+/* 5 Animation*/
+
+/* 6 Misc */

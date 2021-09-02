@@ -1,0 +1,13 @@
+.pd-r13 {
+  /* 2 Block model */
+  padding-right: 13px;
+}
+.pd-t63 {
+  /* 2 Block model */
+  padding-top: 30px;
+  
+  @media(min-width: 1200px) {
+    /* 2 Block model */
+    padding-top: 63px;
+  }
+}
